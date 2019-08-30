@@ -1,0 +1,53 @@
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    1 cores,   32 groups
+ using from now: INCAR     
+ vasp.5.4.1 06Nov2015 (build Apr 24 2014 20:13:14) complex standard
+ Contain Constrained Minimization Technique (TS), Periodic NBO, VASPsol, libbeef, VASP2WANNIER90, Constrained Cell Relaxation
+ POSCAR found type information on POSCAR  H  C  N  F 
+ POSCAR found :  4 types and     156 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default, NPAR=number of cores might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ charge-density read from file: C3N4-4x4-H1-new                         
+ magnetization density read from file 1
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.123528996461E+04   -0.12353E+04   -0.12311E-05  6368   0.657E-03
+RMM:   2    -0.123528996489E+04   -0.28391E-06   -0.28345E-06  4929   0.314E-03
+RMM:   3    -0.123528996490E+04   -0.10739E-07   -0.79287E-08  3599   0.238E-03
+RMM:   4    -0.123528996490E+04   -0.11059E-08   -0.98864E-09  3060   0.236E-03
+RMM:   5    -0.123528996490E+04    0.00000E+00    0.00000E+00  2900   0.235E-03
+RMM:   6    -0.123528996490E+04    0.00000E+00    0.00000E+00  2603   0.235E-03
+RMM:   7    -0.123528996490E+04    0.00000E+00    0.00000E+00  2499   0.235E-03
+RMM:   8    -0.123528996490E+04   -0.29104E-10    0.00000E+00  2342   0.235E-03
+   1 F= -.12352900E+04 E0= -.12352900E+04  d E =0.000000E+00  mag=    -0.0003
+ writing wavefunctions

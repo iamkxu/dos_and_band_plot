@@ -1,1 +1,1 @@
-# dos_and_band_plot
+# Dos and band plot
